@@ -4,7 +4,7 @@
 
 ## [描述](https://github.com/qitas/winmodbus/wiki) 
 
-window系统下的上位机软件工程源码
+window系统下的modbus上位机软件工程
 
 ## [组成](qitas/)
 
@@ -12,12 +12,11 @@ window系统下的上位机软件工程源码
 
 相关文档
 
-#### [工程](project/)
-
-project工程源码
+#### [项目工程](src/)
 
 
----
+#### [dll工程](dll/)
+
 
 ### 锻造最美之器
 
