@@ -389,7 +389,7 @@
             this.label8.AutoSize = true;
             this.label8.Location = new System.Drawing.Point(588, 23);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(29, 12);
+            this.label8.Size = new System.Drawing.Size(34, 12);
             this.label8.TabIndex = 23;
             this.label8.Text = "端口";
             // 
@@ -459,11 +459,11 @@
             // 
             // but_server_open
             // 
-            this.but_server_open.Location = new System.Drawing.Point(666, 17);
+            this.but_server_open.Location = new System.Drawing.Point(688, 17);
             this.but_server_open.Name = "but_server_open";
-            this.but_server_open.Size = new System.Drawing.Size(99, 23);
+            this.but_server_open.Size = new System.Drawing.Size(75, 23);
             this.but_server_open.TabIndex = 0;
-            this.but_server_open.Text = "本地模拟服务";
+            this.but_server_open.Text = "模拟从机";
             this.but_server_open.UseVisualStyleBackColor = true;
             this.but_server_open.Click += new System.EventHandler(this.but_open_server_Click);
             // 
@@ -500,7 +500,7 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(7, 22);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(29, 12);
+            this.label1.Size = new System.Drawing.Size(34, 12);
             this.label1.TabIndex = 3;
             this.label1.Text = "端口";
             // 

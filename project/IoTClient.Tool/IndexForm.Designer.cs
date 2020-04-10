@@ -48,8 +48,8 @@
             // tabControl1
             // 
             this.tabControl1.Controls.Add(this.ModBusTcp);
-            this.tabControl1.Controls.Add(this.ModBusRtu);
             this.tabControl1.Controls.Add(this.ModBusAscii);
+            this.tabControl1.Controls.Add(this.ModBusRtu);
 /*            this.tabControl1.Controls.Add(this.Siemens);
             this.tabControl1.Controls.Add(this.SiemensS7300);*/
 /*            this.tabControl1.Controls.Add(this.MitsubishiMC);*/
@@ -73,19 +73,9 @@
             this.ModBusTcp.Padding = new System.Windows.Forms.Padding(3);
             this.ModBusTcp.Size = new System.Drawing.Size(886, 467);
             this.ModBusTcp.TabIndex = 0;
-            this.ModBusTcp.Text = "ModBusTcp";
+            this.ModBusTcp.Text = " TCP ";
             this.ModBusTcp.UseVisualStyleBackColor = true;
             this.ModBusTcp.Click += new System.EventHandler(this.ModBusTcp_Click);
-            // 
-            // ModBusRtu
-            // 
-            this.ModBusRtu.Location = new System.Drawing.Point(4, 22);
-            this.ModBusRtu.Name = "ModBusRtu";
-            this.ModBusRtu.Padding = new System.Windows.Forms.Padding(3);
-            this.ModBusRtu.Size = new System.Drawing.Size(886, 477);
-            this.ModBusRtu.TabIndex = 4;
-            this.ModBusRtu.Text = "ModBusRtu";
-            this.ModBusRtu.UseVisualStyleBackColor = true;
             // 
             // ModBusAscii
             // 
@@ -94,8 +84,18 @@
             this.ModBusAscii.Padding = new System.Windows.Forms.Padding(3);
             this.ModBusAscii.Size = new System.Drawing.Size(886, 467);
             this.ModBusAscii.TabIndex = 7;
-            this.ModBusAscii.Text = "ModBusAscii";
+            this.ModBusAscii.Text = " Ascii ";
             this.ModBusAscii.UseVisualStyleBackColor = true;
+            // 
+            // ModBusRtu
+            // 
+            this.ModBusRtu.Location = new System.Drawing.Point(4, 22);
+            this.ModBusRtu.Name = "ModBusRtu";
+            this.ModBusRtu.Padding = new System.Windows.Forms.Padding(3);
+            this.ModBusRtu.Size = new System.Drawing.Size(886, 477);
+            this.ModBusRtu.TabIndex = 4;
+            this.ModBusRtu.Text = " RTU ";
+            this.ModBusRtu.UseVisualStyleBackColor = true;
             // 
             // Siemens
             // 
@@ -144,7 +144,7 @@
             this.BACnet.Padding = new System.Windows.Forms.Padding(3);
             this.BACnet.Size = new System.Drawing.Size(886, 467);
             this.BACnet.TabIndex = 2;
-            this.BACnet.Text = " BACnet ";
+            this.BACnet.Text = "BACnet";
             this.BACnet.UseVisualStyleBackColor = true;
             // 
             // Ports
@@ -154,7 +154,7 @@
             this.Ports.Padding = new System.Windows.Forms.Padding(3);
             this.Ports.Size = new System.Drawing.Size(886, 477);
             this.Ports.TabIndex = 3;
-            this.Ports.Text = "  串口  ";
+            this.Ports.Text = "串口通信";
             this.Ports.UseVisualStyleBackColor = true;
             // 
             // Other
@@ -164,7 +164,7 @@
             this.Other.Padding = new System.Windows.Forms.Padding(3);
             this.Other.Size = new System.Drawing.Size(886, 477);
             this.Other.TabIndex = 9;
-            this.Other.Text = "工具";
+            this.Other.Text = "CRC校验";
             this.Other.UseVisualStyleBackColor = true;
             // 
             // modBusTcpControl1
@@ -185,7 +185,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "IndexForm";
-            this.Text = "IoTClient Tool";
+            this.Text = "Matis Tool";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.IndexForm_FormClosing);
             this.tabControl1.ResumeLayout(false);
             this.ModBusTcp.ResumeLayout(false);
@@ -196,16 +196,19 @@
         #endregion
 
         private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage ModBusTcp;
-        private System.Windows.Forms.TabPage Siemens;
+
         private ModBusTcpControl modBusTcpControl1;
+        private System.Windows.Forms.TabPage ModBusTcp;
+        private System.Windows.Forms.TabPage ModBusAscii;
+        private System.Windows.Forms.TabPage ModBusRtu;
         private System.Windows.Forms.TabPage BACnet;
         private System.Windows.Forms.TabPage Ports;
-        private System.Windows.Forms.TabPage ModBusRtu;
-/*        private System.Windows.Forms.TabPage MitsubishiMC;*/
-        private System.Windows.Forms.TabPage OmronFinsTcp;
-        private System.Windows.Forms.TabPage ModBusAscii;
-/*        private System.Windows.Forms.TabPage SiemensS7300;*/
         private System.Windows.Forms.TabPage Other;
+        // private System.Windows.Forms.TabPage Siemens;
+        /*        private System.Windows.Forms.TabPage MitsubishiMC;*/
+        // private System.Windows.Forms.TabPage OmronFinsTcp;
+
+        /*        private System.Windows.Forms.TabPage SiemensS7300;*/
+
     }
 }

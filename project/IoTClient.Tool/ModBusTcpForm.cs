@@ -25,7 +25,7 @@ namespace IoTClient.Demo
                 server = new ModBusTcpServer("127.0.0.1", 502);
 
             }
-            if (button1.Text == "本地模拟服务")
+            if (button1.Text == "模拟从机")
             {
                 server.Start();
                 button1.Text = "模拟服务已启动";
@@ -33,7 +33,7 @@ namespace IoTClient.Demo
             else
             {
                 server.Close();
-                button1.Text = "本地模拟服务";
+                button1.Text = "模拟从机";
             }
         }
 

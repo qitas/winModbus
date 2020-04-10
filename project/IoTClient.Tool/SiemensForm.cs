@@ -202,7 +202,7 @@ namespace IoTClient.Demo
 
         private void but_server_Click(object sender, EventArgs e)
         {
-            if (but_server.Text == "本地模拟服务")
+            if (but_server.Text == "模拟从机")
             {
                 but_server.Text = "已开启服务";
                 server = new SiemensServer(txt_ip.Text?.Trim(), int.Parse(txt_port.Text.Trim()));
@@ -210,7 +210,7 @@ namespace IoTClient.Demo
             }
             else
             {
-                but_server.Text = "本地模拟服务";
+                but_server.Text = "模拟从机";
                 server?.Close();
             }
         }
