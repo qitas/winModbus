@@ -50,7 +50,7 @@ namespace IoTClient.Tests.PLCTests
             client.Write("V2205", value_double);
             Assert.True(client.ReadDouble("V2205").Value == value_double);
 
-            string value_string = "BennyZhao";
+            string value_string = "Qitas";
             client.Write("V2205", value_string);
             Assert.True(client.ReadString("V2205").Value == value_string);
         }
@@ -90,7 +90,7 @@ namespace IoTClient.Tests.PLCTests
             client.Write("V2205", value_double);
             Assert.True(client.ReadDouble("V2205").Value == value_double);
 
-            string value_string = "BennyZhao";
+            string value_string = "Qitas";
             client.Write("V2205", value_string);
             Assert.True(client.ReadString("V2205").Value == value_string);
 

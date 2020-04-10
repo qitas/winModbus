@@ -194,7 +194,7 @@ namespace IoTClient.Tool
         {
             try
             {
-                Process.Start("https://github.com/zhaopeiym/IoTClient");
+                Process.Start("https://github.com/Qitas/winmodbus");
             }
             catch (Exception) { }
         }
@@ -212,7 +212,7 @@ namespace IoTClient.Tool
         {
             try
             {
-                Process.Start("https://github.com/zhaopeiym/IoTClient/issues");
+                Process.Start("https://github.com/Qitas/winmodbus/issues");
             }
             catch (Exception) { }
         }
@@ -230,7 +230,7 @@ namespace IoTClient.Tool
         {
             try
             {
-                Process.Start("https://github.com/zhaopeiym/IoTClient/releases");
+                Process.Start("https://github.com/Qitas/winmodbus/releases");
             }
             catch (Exception) { }
         }

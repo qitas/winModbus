@@ -33,10 +33,10 @@
             this.ModBusTcp = new System.Windows.Forms.TabPage();
             this.ModBusRtu = new System.Windows.Forms.TabPage();
             this.ModBusAscii = new System.Windows.Forms.TabPage();
-            this.Siemens = new System.Windows.Forms.TabPage();
-            this.SiemensS7300 = new System.Windows.Forms.TabPage();
-            this.MitsubishiMC = new System.Windows.Forms.TabPage();
-            this.OmronFinsTcp = new System.Windows.Forms.TabPage();
+/*            this.Siemens = new System.Windows.Forms.TabPage();
+            this.SiemensS7300 = new System.Windows.Forms.TabPage();*/
+/*            this.MitsubishiMC = new System.Windows.Forms.TabPage();*/
+/*            this.OmronFinsTcp = new System.Windows.Forms.TabPage();*/
             this.BACnet = new System.Windows.Forms.TabPage();
             this.Ports = new System.Windows.Forms.TabPage();
             this.Other = new System.Windows.Forms.TabPage();
@@ -50,10 +50,10 @@
             this.tabControl1.Controls.Add(this.ModBusTcp);
             this.tabControl1.Controls.Add(this.ModBusRtu);
             this.tabControl1.Controls.Add(this.ModBusAscii);
-            this.tabControl1.Controls.Add(this.Siemens);
-            this.tabControl1.Controls.Add(this.SiemensS7300);
-            this.tabControl1.Controls.Add(this.MitsubishiMC);
-            this.tabControl1.Controls.Add(this.OmronFinsTcp);
+/*            this.tabControl1.Controls.Add(this.Siemens);
+            this.tabControl1.Controls.Add(this.SiemensS7300);*/
+/*            this.tabControl1.Controls.Add(this.MitsubishiMC);*/
+/*            this.tabControl1.Controls.Add(this.OmronFinsTcp);*/
             this.tabControl1.Controls.Add(this.BACnet);
             this.tabControl1.Controls.Add(this.Ports);
             this.tabControl1.Controls.Add(this.Other);
@@ -99,43 +99,43 @@
             // 
             // Siemens
             // 
-            this.Siemens.Location = new System.Drawing.Point(4, 22);
+/*            this.Siemens.Location = new System.Drawing.Point(4, 22);
             this.Siemens.Name = "Siemens";
             this.Siemens.Padding = new System.Windows.Forms.Padding(3);
             this.Siemens.Size = new System.Drawing.Size(886, 477);
             this.Siemens.TabIndex = 1;
             this.Siemens.Text = "西门子S7-200Smart";
-            this.Siemens.UseVisualStyleBackColor = true;
+            this.Siemens.UseVisualStyleBackColor = true;*/
             // 
             // SiemensS7300
             // 
-            this.SiemensS7300.Location = new System.Drawing.Point(4, 22);
+/*            this.SiemensS7300.Location = new System.Drawing.Point(4, 22);
             this.SiemensS7300.Name = "SiemensS7300";
             this.SiemensS7300.Padding = new System.Windows.Forms.Padding(3);
             this.SiemensS7300.Size = new System.Drawing.Size(886, 477);
             this.SiemensS7300.TabIndex = 8;
             this.SiemensS7300.Text = "西门子S7-300 Beta";
-            this.SiemensS7300.UseVisualStyleBackColor = true;
+            this.SiemensS7300.UseVisualStyleBackColor = true;*/
             // 
             // MitsubishiMC
             // 
-            this.MitsubishiMC.Location = new System.Drawing.Point(4, 22);
+/*            this.MitsubishiMC.Location = new System.Drawing.Point(4, 22);
             this.MitsubishiMC.Name = "MitsubishiMC";
             this.MitsubishiMC.Padding = new System.Windows.Forms.Padding(3);
             this.MitsubishiMC.Size = new System.Drawing.Size(886, 467);
             this.MitsubishiMC.TabIndex = 5;
             this.MitsubishiMC.Text = " 三菱MC Beta";
-            this.MitsubishiMC.UseVisualStyleBackColor = true;
+            this.MitsubishiMC.UseVisualStyleBackColor = true;*/
             // 
             // OmronFinsTcp
             // 
-            this.OmronFinsTcp.Location = new System.Drawing.Point(4, 22);
+/*            this.OmronFinsTcp.Location = new System.Drawing.Point(4, 22);
             this.OmronFinsTcp.Name = "OmronFinsTcp";
             this.OmronFinsTcp.Padding = new System.Windows.Forms.Padding(3);
             this.OmronFinsTcp.Size = new System.Drawing.Size(886, 467);
             this.OmronFinsTcp.TabIndex = 6;
             this.OmronFinsTcp.Text = "欧姆龙FinsTcp Beta";
-            this.OmronFinsTcp.UseVisualStyleBackColor = true;
+            this.OmronFinsTcp.UseVisualStyleBackColor = true;*/
             // 
             // BACnet
             // 
@@ -202,10 +202,10 @@
         private System.Windows.Forms.TabPage BACnet;
         private System.Windows.Forms.TabPage Ports;
         private System.Windows.Forms.TabPage ModBusRtu;
-        private System.Windows.Forms.TabPage MitsubishiMC;
+/*        private System.Windows.Forms.TabPage MitsubishiMC;*/
         private System.Windows.Forms.TabPage OmronFinsTcp;
         private System.Windows.Forms.TabPage ModBusAscii;
-        private System.Windows.Forms.TabPage SiemensS7300;
+/*        private System.Windows.Forms.TabPage SiemensS7300;*/
         private System.Windows.Forms.TabPage Other;
     }
 }
